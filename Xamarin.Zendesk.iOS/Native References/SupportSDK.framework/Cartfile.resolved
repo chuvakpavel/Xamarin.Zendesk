@@ -1,7 +1,0 @@
-binary "https://zendesk.jfrog.io/zendesk/libs-releases-local/ios/zendesk/CommonUISDK/CommonUISDK.json" "5.0.0"
-binary "https://zendesk.jfrog.io/zendesk/libs-releases-local/ios/zendesk/MessagingAPI/MessagingAPI.json" "3.6.0"
-binary "https://zendesk.jfrog.io/zendesk/libs-releases-local/ios/zendesk/MessagingSDK/MessagingSDK.json" "3.6.0"
-binary "https://zendesk.jfrog.io/zendesk/libs-releases-local/ios/zendesk/SDKConfigurations/SDKConfigurations.json" "1.1.5"
-binary "https://zendesk.jfrog.io/zendesk/libs-releases-local/ios/zendesk/SupportProvidersSDK/SupportProvidersSDK.json" "5.0.5"
-binary "https://zendesk.jfrog.io/zendesk/libs-releases-local/ios/zendesk/SupportSDK/SupportSDK.json" "5.0.5"
-binary "https://zendesk.jfrog.io/zendesk/libs-releases-local/ios/zendesk/ZendeskCoreSDK/ZendeskCoreSDK.json" "2.3.0"

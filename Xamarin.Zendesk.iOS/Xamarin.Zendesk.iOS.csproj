@@ -47,7 +47,7 @@
     <ObjcBindingCoreSource Include="Structs.cs" />
   </ItemGroup>
   <ItemGroup>
-    <NativeReference Include="Native References/SupportSDK.framework">
+    <NativeReference Include="Native References/ZendeskFramework.framework">
       <Kind>Framework</Kind>
     </NativeReference>
   </ItemGroup>
