@@ -1,0 +1,20 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "1.1.5",
+  "iOS" : [
+    {
+      "hash" : "17b5b764ed29a004aec0b81100c09b86fe24188157df79ca21e7dcd78d59fd3a",
+      "name" : "SDKConfigurations",
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+    }
+  ]
+}

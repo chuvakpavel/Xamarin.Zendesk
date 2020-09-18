@@ -1,0 +1,20 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "2.3.0",
+  "iOS" : [
+    {
+      "hash" : "34dd2808d2a22f71c1e4536cee0916187ef14130494fc453b022bdaccd59b9b4",
+      "name" : "ZendeskCoreSDK",
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+    }
+  ]
+}
