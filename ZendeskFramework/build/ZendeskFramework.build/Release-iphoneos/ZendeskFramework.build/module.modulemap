@@ -1,0 +1,4 @@
+framework module ZendeskFramework {
+  header "ZendeskFramework-Swift.h"
+  requires objc
+}

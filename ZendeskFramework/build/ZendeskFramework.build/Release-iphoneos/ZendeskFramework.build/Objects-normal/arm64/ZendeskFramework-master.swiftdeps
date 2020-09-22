@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "7beeb4c498e7ad7cf041a8132a2e30e1"
+build_time: [1600767534, 371687000]
+inputs:
+  "/Users/vlad/Documents/ZendeskFramework/ZendeskFramework/ZendeskFramework.swift": [9223372036, 854775807]
