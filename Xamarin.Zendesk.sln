@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Zendesk.iOS", "Xamarin.Zendesk.iOS\Xamarin.Zendesk.iOS.csproj", "{5142C8EF-876A-4E37-8B5F-633F86BE1FDA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Zendesk.Droid", "Xamarin.Zendesk.Droid\Xamarin.Zendesk.Droid.csproj", "{5531B23E-33C2-43A0-88C3-30AD3D989325}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.ZendeskSupport.Droid", "Xamarin.Zendesk.Droid\Xamarin.ZendeskSupport.Droid.csproj", "{5531B23E-33C2-43A0-88C3-30AD3D989325}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
