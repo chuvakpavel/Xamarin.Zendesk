@@ -204,6 +204,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
+@class UIViewController;
 
 SWIFT_CLASS_NAMED("ZendeskFramework")
 @interface ZendeskFramework : NSObject
@@ -211,7 +212,8 @@ SWIFT_CLASS_NAMED("ZendeskFramework")
 - (void)setAnonymousIdentity;
 - (void)setIdentityWithName:(NSString * _Nonnull)name email:(NSString * _Nonnull)email;
 - (void)setUniqueIdentityWithToken:(NSString * _Nonnull)token;
-- (void)showTicketScreenWithAnimated:(BOOL)animated;
+- (void)showTicketScreenWithAnimated:(BOOL)animated sender:(UIViewController * _Nonnull)sender;
+- (void)showWithViewController:(UIViewController * _Nonnull)viewController sender:(UIViewController * _Nonnull)sender;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 

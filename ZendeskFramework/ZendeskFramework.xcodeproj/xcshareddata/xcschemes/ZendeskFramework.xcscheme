@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F576638F2514A64E00903D92"
+               BlueprintIdentifier = "F5118AF7251B68AE0002D5F7"
                BuildableName = "ZendeskFramework.framework"
                BlueprintName = "ZendeskFramework"
                ReferencedContainer = "container:ZendeskFramework.xcodeproj">
@@ -28,16 +28,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F57663982514A64E00903D92"
-               BuildableName = "ZendeskFrameworkTests.xctest"
-               BlueprintName = "ZendeskFrameworkTests"
-               ReferencedContainer = "container:ZendeskFramework.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
@@ -60,7 +50,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F576638F2514A64E00903D92"
+            BlueprintIdentifier = "F5118AF7251B68AE0002D5F7"
             BuildableName = "ZendeskFramework.framework"
             BlueprintName = "ZendeskFramework"
             ReferencedContainer = "container:ZendeskFramework.xcodeproj">
