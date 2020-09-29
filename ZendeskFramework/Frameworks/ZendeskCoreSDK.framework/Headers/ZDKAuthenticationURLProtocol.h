@@ -1,7 +1,7 @@
 /*
  *
  *  ZDKAuthenticationURLProtocol.h
- *  ZendeskCoreSDK
+ *  ZendeskSDK
  *
  *  Created by Zendesk on 23/04/2015.
  *

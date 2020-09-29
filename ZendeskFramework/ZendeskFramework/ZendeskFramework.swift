@@ -2,19 +2,21 @@
 //  ZendeskFramework.swift
 //  ZendeskFramework
 //
-//  Created by ZaxaroVA on 9/18/20.
+//  Created by ZaxaroVA on 9/23/20.
 //  Copyright © 2020 Pavel Chuvak. All rights reserved.
 //
 
 import Foundation
-import SupportProvidersSDK
+import ZendeskProviderSDK
 import ZendeskCoreSDK
-import SupportSDK
+import ZendeskSDK
+import UIKit
 
 @objc(ZendeskFramework)
 public class ZendeskFramework : NSObject{
     
     private let navigationController = UINavigationController()
+    private let zendeskVC = ZendeskFrameworkVC()
     
     @objc
     public func initZendesk(appId: String, clientId: String, zendeskUrl: String) -> Void{
@@ -41,9 +43,13 @@ public class ZendeskFramework : NSObject{
     }
     
     @objc
-    public func showTicketScreen(animated: Bool) -> Void{
+    public func showTicketScreen(animated: Bool, sender: UIViewController) -> Void{
         let requestScreen = RequestUi.buildRequestUi(with: [])
-        self.navigationController.pushViewController(requestScreen, animated: animated)
+        show(viewController: requestScreen, sender: sender)
     }
     
+    @objc
+    public func show(viewController: UIViewController, sender: UIViewController) -> Void{
+        zendeskVC.showZendesk(vc: viewController, sender: sender)
+    }
 }
