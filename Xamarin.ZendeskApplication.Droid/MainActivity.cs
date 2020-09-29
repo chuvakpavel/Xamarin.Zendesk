@@ -1,8 +1,6 @@
 ﻿using Android.App;
 using Android.OS;
-using Android.Support.V7.App;
-using Android.Runtime;
-using Android.Widget;
+using AndroidX.AppCompat.App;
 using Com.Xamarin.Zendeskframework;
 
 namespace Xamarin.ZendeskApplication.Droid
@@ -19,7 +17,7 @@ namespace Xamarin.ZendeskApplication.Droid
             
             var x = new ZendeskSupport();
             x.Init(this, "https://groupehbfhelp.zendesk.com", "5541d2e6f34fc836de9c4fa4c76a1c3a2561f6815cce389f", "mobile_sdk_client_fb6b3cb1d2c6a4587eed");
-            x.ShowRequestActivity(this);
+            x.ShowRequestListActivity(this);
         }
         //public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         //{

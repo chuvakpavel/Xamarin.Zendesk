@@ -100,10 +100,11 @@
     <Folder Include="Resources\drawable\" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Android.Support.Design" Version="28.0.0.3" />
-    <PackageReference Include="Xamarin.Android.Support.Core.Utils" Version="28.0.0.3" />
-    <PackageReference Include="Xamarin.Android.Support.CustomTabs" Version="28.0.0.3" />
+    <PackageReference Include="Xamarin.Google.Android.Material" Version="1.0.0-preview02" />
+    <PackageReference Include="Xamarin.AndroidX.Legacy.Support.Core.Utils" Version="1.0.0-preview02" />
+    <PackageReference Include="Xamarin.AndroidX.Browser" Version="1.0.0-preview02" />
     <PackageReference Include="Xamarin.Essentials" Version="1.3.1" />
+    <PackageReference Include="Xamarin.AndroidX.Migration" Version="1.0.0-preview03" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Com.Google.Code.Gson\Com.Google.Code.Gson.csproj">
@@ -134,6 +135,14 @@
       <Project>{ae54104b-2640-44fd-8118-6276f89bf322}</Project>
       <Name>Com.Squareup.Retrofit2</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Com.Zendesk.Belvedere2.BelvedereCore\Com.Zendesk.Belvedere2.BelvedereCore.csproj">
+      <Project>{84056bd2-5601-4b15-862c-48decca7ed9a}</Project>
+      <Name>Com.Zendesk.Belvedere2.BelvedereCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Com.Zendesk.Belvedere2.Belvedere\Com.Zendesk.Belvedere2.Belvedere.csproj">
+      <Project>{f50b9ecd-f131-4135-90dd-d102350864b8}</Project>
+      <Name>Com.Zendesk.Belvedere2.Belvedere</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Com.Zendesk.CommonUi\Com.Zendesk.CommonUi.csproj">
       <Project>{c91a8f64-ef01-4adf-aac5-aa7e39a59b9c}</Project>
       <Name>Com.Zendesk.CommonUi</Name>
@@ -161,6 +170,10 @@
     <ProjectReference Include="..\Com.Zendesk.SdkConfigurations\Com.Zendesk.SdkConfigurations.csproj">
       <Project>{eebf6b94-23ad-47db-8dc4-d757f395f714}</Project>
       <Name>Com.Zendesk.SdkConfigurations</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Com.Zendesk.Suas\Com.Zendesk.Suas.csproj">
+      <Project>{edbc38c4-9755-4182-9653-5bad19d94f32}</Project>
+      <Name>Com.Zendesk.Suas</Name>
     </ProjectReference>
     <ProjectReference Include="..\Xamarin.Zendesk.Droid\Com.Zendesk.Support.csproj">
       <Project>{5531b23e-33c2-43a0-88c3-30ad3d989325}</Project>
