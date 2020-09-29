@@ -70,16 +70,7 @@
     <EmbeddedReferenceJar Include="Jars\cardview-1.0.0-sources.jar" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedReferenceJar Include="Jars\dagger-android-2.23.2-sources.jar" />
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedReferenceJar Include="Jars\disklrucache-2.0.2-sources.jar" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedReferenceJar Include="Jars\gson-2.8.2-sources.jar" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedReferenceJar Include="Jars\guide-1.0.1-sources.jar" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedReferenceJar Include="Jars\legacy-support-v4-1.0.0-sources.jar" />
@@ -88,31 +79,13 @@
     <EmbeddedReferenceJar Include="Jars\material-1.2.0-sources.jar" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedReferenceJar Include="Jars\messaging-5.1.0-sources.jar" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedReferenceJar Include="Jars\messaging-api-5.0.1-sources.jar" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedReferenceJar Include="Jars\picasso-2.8-sources.jar" />
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedReferenceJar Include="Jars\recyclerview-1.1.0-sources.jar" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedReferenceJar Include="Jars\sdk-configurations-2.0.0-sources.jar" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedReferenceJar Include="Jars\suas-1.2.0-sources.jar" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedReferenceJar Include="Jars\annotation-1.1.0-sources.jar" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedReferenceJar Include="Jars\guide-providers-1.0.1-sources.jar" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedReferenceJar Include="Jars\retrofit-2.3.0-sources.jar" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

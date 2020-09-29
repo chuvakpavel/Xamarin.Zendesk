@@ -55,10 +55,7 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedJar Include="Jars\logging-interceptor-3.12.1.jar" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedReferenceJar Include="Jars\okhttp-3.12.1.jar" />
+    <EmbeddedJar Include="Jars\okhttp-3.12.1.jar" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedReferenceJar Include="Jars\okio-1.15.0.jar" />
