@@ -147,6 +147,10 @@
       <Project>{c91a8f64-ef01-4adf-aac5-aa7e39a59b9c}</Project>
       <Name>Com.Zendesk.CommonUi</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Com.Zendesk.Core\Com.Zendesk.Core.csproj">
+      <Project>{4e578469-5c65-4c52-a621-e9753a2fc0fe}</Project>
+      <Name>Com.Zendesk.Core</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Com.Zendesk.GuideProviders\Com.Zendesk.GuideProviders.csproj">
       <Project>{12889fba-27c9-40ca-b35e-5c4bdad30708}</Project>
       <Name>Com.Zendesk.GuideProviders</Name>
@@ -175,21 +179,17 @@
       <Project>{edbc38c4-9755-4182-9653-5bad19d94f32}</Project>
       <Name>Com.Zendesk.Suas</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Com.Zendesk.SupportProviders\Com.Zendesk.SupportProviders.csproj">
+      <Project>{570622b0-d908-4c78-9eca-09984a5f84a6}</Project>
+      <Name>Com.Zendesk.SupportProviders</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Xamarin.Zendesk.Droid\Com.Zendesk.Support.csproj">
       <Project>{5531b23e-33c2-43a0-88c3-30ad3d989325}</Project>
       <Name>Com.Zendesk.Support</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Xamarin.ZendeskCore.Droid\Com.Zendesk.Core.csproj">
-      <Project>{5b7e710e-3fe9-4df0-b015-3bde82854c31}</Project>
-      <Name>Com.Zendesk.Core</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Xamarin.ZendeskSupport.Wrapper.Droid\Com.Xamarin.ZendeskFramework.csproj">
       <Project>{36d806f6-0251-42d7-89c0-feabbaaf6a42}</Project>
       <Name>Com.Xamarin.ZendeskFramework</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Xamarin.ZendeskSupportProvider.Froid\Com.Zendesk.SupportProviders.csproj">
-      <Project>{10d396dc-1dd2-437d-a8cf-a22edf922221}</Project>
-      <Name>Com.Zendesk.SupportProviders</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
