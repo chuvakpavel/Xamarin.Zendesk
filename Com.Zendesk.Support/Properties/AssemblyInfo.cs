@@ -6,11 +6,11 @@ using Android.App;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Xamarin.ZendeskSupportProvider.Froid")]
+[assembly: AssemblyTitle("Com.Zendesk.Support")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Xamarin.ZendeskSupportProvider.Froid")]
+[assembly: AssemblyProduct("Com.Zendesk.Support")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

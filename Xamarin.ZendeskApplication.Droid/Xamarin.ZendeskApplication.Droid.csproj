@@ -135,6 +135,10 @@
       <Project>{ae54104b-2640-44fd-8118-6276f89bf322}</Project>
       <Name>Com.Squareup.Retrofit2</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Com.Xamarin.ZendeskFramework\Com.Xamarin.ZendeskFramework.csproj">
+      <Project>{c1c7b41e-9f36-4eb3-bcab-1aad376ac3c6}</Project>
+      <Name>Com.Xamarin.ZendeskFramework</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Com.Zendesk.Belvedere2.BelvedereCore\Com.Zendesk.Belvedere2.BelvedereCore.csproj">
       <Project>{84056bd2-5601-4b15-862c-48decca7ed9a}</Project>
       <Name>Com.Zendesk.Belvedere2.BelvedereCore</Name>
@@ -183,13 +187,9 @@
       <Project>{570622b0-d908-4c78-9eca-09984a5f84a6}</Project>
       <Name>Com.Zendesk.SupportProviders</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Xamarin.Zendesk.Droid\Com.Zendesk.Support.csproj">
-      <Project>{5531b23e-33c2-43a0-88c3-30ad3d989325}</Project>
+    <ProjectReference Include="..\Com.Zendesk.Support\Com.Zendesk.Support.csproj">
+      <Project>{c69431d0-0255-4d66-a331-10da883e025d}</Project>
       <Name>Com.Zendesk.Support</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Xamarin.ZendeskSupport.Wrapper.Droid\Com.Xamarin.ZendeskFramework.csproj">
-      <Project>{36d806f6-0251-42d7-89c0-feabbaaf6a42}</Project>
-      <Name>Com.Xamarin.ZendeskFramework</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
