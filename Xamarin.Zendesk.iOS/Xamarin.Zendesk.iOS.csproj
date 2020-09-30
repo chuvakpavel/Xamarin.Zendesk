@@ -62,8 +62,8 @@
     </NativeReference>
     <NativeReference Include="Native References/ZendeskFramework.framework">
       <Kind>Framework</Kind>
-      <SmartLink>True</SmartLink>
       <Frameworks>Foundation UIKit</Frameworks>
+      <SmartLink>True</SmartLink>
     </NativeReference>
     <NativeReference Include="Native References/ZendeskProviderSDK.framework">
       <Kind>Framework</Kind>
