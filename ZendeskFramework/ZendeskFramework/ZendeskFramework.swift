@@ -44,12 +44,12 @@ public class ZendeskFramework : NSObject{
     
     @objc
     public func showTicketScreen(animated: Bool, sender: UIViewController) -> Void{
-        let requestScreen = RequestUi.buildRequestUi(with: [])
-        show(viewController: requestScreen, sender: sender)
+        let requestListController = RequestUi.buildRequestList()
+        show(viewController: requestListController, sender: sender)
     }
     
     @objc
-    public func show(viewController: UIViewController, sender: UIViewController) -> Void{
+    private func show(viewController: UIViewController, sender: UIViewController) -> Void{
         zendeskVC.showZendesk(vc: viewController, sender: sender)
     }
 }
