@@ -21,6 +21,8 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <BTouchExtraArgs>
+    </BTouchExtraArgs>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>full</DebugType>
@@ -48,8 +50,30 @@
     <ObjcBindingCoreSource Include="Structs.cs" />
   </ItemGroup>
   <ItemGroup>
+    <NativeReference Include="Native References/CommonUISDK.framework">
+      <Kind>Framework</Kind>
+      <SmartLink>True</SmartLink>
+      <Frameworks>Foundation UIKit</Frameworks>
+    </NativeReference>
+    <NativeReference Include="Native References/ZendeskCoreSDK.framework">
+      <Kind>Framework</Kind>
+      <SmartLink>True</SmartLink>
+      <Frameworks>Foundation UIKit</Frameworks>
+    </NativeReference>
     <NativeReference Include="Native References/ZendeskFramework.framework">
       <Kind>Framework</Kind>
+      <SmartLink>True</SmartLink>
+      <Frameworks>Foundation UIKit</Frameworks>
+    </NativeReference>
+    <NativeReference Include="Native References/ZendeskProviderSDK.framework">
+      <Kind>Framework</Kind>
+      <SmartLink>True</SmartLink>
+      <Frameworks>Foundation UIKit</Frameworks>
+    </NativeReference>
+    <NativeReference Include="Native References/ZendeskSDK.framework">
+      <Kind>Framework</Kind>
+      <SmartLink>True</SmartLink>
+      <Frameworks>Foundation UIKit</Frameworks>
     </NativeReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.ObjCBinding.CSharp.targets" />
