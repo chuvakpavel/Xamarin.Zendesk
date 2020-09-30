@@ -100,10 +100,11 @@
     <Folder Include="Resources\drawable\" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Android.Support.Design" Version="28.0.0.3" />
-    <PackageReference Include="Xamarin.Android.Support.Core.Utils" Version="28.0.0.3" />
-    <PackageReference Include="Xamarin.Android.Support.CustomTabs" Version="28.0.0.3" />
+    <PackageReference Include="Xamarin.Google.Android.Material" Version="1.0.0-preview02" />
+    <PackageReference Include="Xamarin.AndroidX.Legacy.Support.Core.Utils" Version="1.0.0-preview02" />
+    <PackageReference Include="Xamarin.AndroidX.Browser" Version="1.0.0-preview02" />
     <PackageReference Include="Xamarin.Essentials" Version="1.3.1" />
+    <PackageReference Include="Xamarin.AndroidX.Migration" Version="1.0.0-preview03" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Com.Google.Code.Gson\Com.Google.Code.Gson.csproj">
@@ -114,25 +115,81 @@
       <Project>{1ed0d694-4cd2-4ec3-aa73-1217972293c9}</Project>
       <Name>Com.Google.Dagger</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Com.Squareup.Okhttp3.ConverterGson\Com.Squareup.Okhttp3.ConverterGson.csproj">
+      <Project>{7e2a7fa2-4450-416c-91a2-f7226c92a71e}</Project>
+      <Name>Com.Squareup.Okhttp3.ConverterGson</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Com.Squareup.Okhttp3.LoggingInterceptor\Com.Squareup.Okhttp3.LoggingInterceptor.csproj">
+      <Project>{3d3b9853-8882-46a5-a367-63cfb5ac1b24}</Project>
+      <Name>Com.Squareup.Okhttp3.LoggingInterceptor</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Com.Squareup.Okhttp3\Com.Squareup.Okhttp3.csproj">
       <Project>{fcc1b28b-748f-40e3-8293-65d947c85d5c}</Project>
       <Name>Com.Squareup.Okhttp3</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Xamarin.Zendesk.Droid\Com.Zendesk.Support.csproj">
-      <Project>{5531b23e-33c2-43a0-88c3-30ad3d989325}</Project>
-      <Name>Com.Zendesk.Support</Name>
+    <ProjectReference Include="..\Com.Squareup.Picasso\Com.Squareup.Picasso.csproj">
+      <Project>{664c8e76-f814-4f0c-ac57-794cf1772bb8}</Project>
+      <Name>Com.Squareup.Picasso</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Xamarin.ZendeskCore.Droid\Com.Zendesk.Core.csproj">
-      <Project>{5b7e710e-3fe9-4df0-b015-3bde82854c31}</Project>
-      <Name>Com.Zendesk.Core</Name>
+    <ProjectReference Include="..\Com.Squareup.Retrofit2\Com.Squareup.Retrofit2.csproj">
+      <Project>{ae54104b-2640-44fd-8118-6276f89bf322}</Project>
+      <Name>Com.Squareup.Retrofit2</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Xamarin.ZendeskSupport.Wrapper.Droid\Com.Xamarin.ZendeskFramework.csproj">
-      <Project>{36d806f6-0251-42d7-89c0-feabbaaf6a42}</Project>
+    <ProjectReference Include="..\Com.Xamarin.ZendeskFramework\Com.Xamarin.ZendeskFramework.csproj">
+      <Project>{c1c7b41e-9f36-4eb3-bcab-1aad376ac3c6}</Project>
       <Name>Com.Xamarin.ZendeskFramework</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Xamarin.ZendeskSupportProvider.Froid\Com.Zendesk.SupportProviders.csproj">
-      <Project>{10d396dc-1dd2-437d-a8cf-a22edf922221}</Project>
+    <ProjectReference Include="..\Com.Zendesk.Belvedere2.BelvedereCore\Com.Zendesk.Belvedere2.BelvedereCore.csproj">
+      <Project>{84056bd2-5601-4b15-862c-48decca7ed9a}</Project>
+      <Name>Com.Zendesk.Belvedere2.BelvedereCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Com.Zendesk.Belvedere2.Belvedere\Com.Zendesk.Belvedere2.Belvedere.csproj">
+      <Project>{f50b9ecd-f131-4135-90dd-d102350864b8}</Project>
+      <Name>Com.Zendesk.Belvedere2.Belvedere</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Com.Zendesk.CommonUi\Com.Zendesk.CommonUi.csproj">
+      <Project>{c91a8f64-ef01-4adf-aac5-aa7e39a59b9c}</Project>
+      <Name>Com.Zendesk.CommonUi</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Com.Zendesk.Core\Com.Zendesk.Core.csproj">
+      <Project>{4e578469-5c65-4c52-a621-e9753a2fc0fe}</Project>
+      <Name>Com.Zendesk.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Com.Zendesk.GuideProviders\Com.Zendesk.GuideProviders.csproj">
+      <Project>{12889fba-27c9-40ca-b35e-5c4bdad30708}</Project>
+      <Name>Com.Zendesk.GuideProviders</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Com.Zendesk.Guide\Com.Zendesk.Guide.csproj">
+      <Project>{5f865fb6-2d0c-4565-84de-996eb43b48ed}</Project>
+      <Name>Com.Zendesk.Guide</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Com.Zendesk.JavaCommon\Com.Zendesk.JavaCommon.csproj">
+      <Project>{49f80901-d6c1-49c0-89fd-2788e42ca54e}</Project>
+      <Name>Com.Zendesk.JavaCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Com.Zendesk.MessagingApi\Com.Zendesk.MessagingApi.csproj">
+      <Project>{2c9323d2-5f5f-47cb-a252-83fd637f6653}</Project>
+      <Name>Com.Zendesk.MessagingApi</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Com.Zendesk.Messaging\Com.Zendesk.Messaging.csproj">
+      <Project>{30779b22-e614-4395-bd77-1e6b41aa9c83}</Project>
+      <Name>Com.Zendesk.Messaging</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Com.Zendesk.SdkConfigurations\Com.Zendesk.SdkConfigurations.csproj">
+      <Project>{eebf6b94-23ad-47db-8dc4-d757f395f714}</Project>
+      <Name>Com.Zendesk.SdkConfigurations</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Com.Zendesk.Suas\Com.Zendesk.Suas.csproj">
+      <Project>{edbc38c4-9755-4182-9653-5bad19d94f32}</Project>
+      <Name>Com.Zendesk.Suas</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Com.Zendesk.SupportProviders\Com.Zendesk.SupportProviders.csproj">
+      <Project>{570622b0-d908-4c78-9eca-09984a5f84a6}</Project>
       <Name>Com.Zendesk.SupportProviders</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Com.Zendesk.Support\Com.Zendesk.Support.csproj">
+      <Project>{c69431d0-0255-4d66-a331-10da883e025d}</Project>
+      <Name>Com.Zendesk.Support</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
