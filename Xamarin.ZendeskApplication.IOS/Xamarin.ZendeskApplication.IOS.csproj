@@ -75,6 +75,9 @@
     <Reference Include="Xamarin.iOS" />
     <Reference Include="System.Numerics" />
     <Reference Include="System.Numerics.Vectors" />
+    <Reference Include="ZendeskFramework.iOS">
+      <HintPath>..\ZendeskFramework.Binding.iOS\bin\Release\ZendeskFramework.iOS.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Essentials" Version="1.3.1" />
@@ -125,12 +128,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Xamarin.Zendesk.iOS\Xamarin.Zendesk.iOS.csproj">
-      <Project>{5142c8ef-876a-4e37-8b5f-633f86be1fda}</Project>
-      <Name>Xamarin.Zendesk.iOS</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

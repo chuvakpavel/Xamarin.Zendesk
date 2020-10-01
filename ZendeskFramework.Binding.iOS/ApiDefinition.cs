@@ -6,7 +6,7 @@ using Security;
 using UIKit;
 
 
-namespace Xamarin.Zendesk.iOS
+namespace ZendeskFramework.iOS
 {
 	// @interface ZendeskFramework : NSObject
 	[BaseType(typeof(NSObject))]

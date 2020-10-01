@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Zendesk.iOS", "Xamarin.Zendesk.iOS\Xamarin.Zendesk.iOS.csproj", "{5142C8EF-876A-4E37-8B5F-633F86BE1FDA}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.ZendeskApplication.Droid", "Xamarin.ZendeskApplication.Droid\Xamarin.ZendeskApplication.Droid.csproj", "{D702A8B4-237E-4D6A-B39C-7C72D8997F4C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Com.Google.Dagger", "Com.Google.Dagger\Com.Google.Dagger.csproj", "{1ED0D694-4CD2-4EC3-AA73-1217972293C9}"
@@ -51,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Com.Xamarin.ZendeskFramewor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.ZendeskApplication.IOS", "Xamarin.ZendeskApplication.IOS\Xamarin.ZendeskApplication.IOS.csproj", "{7DCA45D3-FB76-411E-81A8-0A6F81B240A3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZendeskFramework.Binding.iOS", "ZendeskFramework.Binding.iOS\ZendeskFramework.Binding.iOS.csproj", "{5142C8EF-876A-4E37-8B5F-633F86BE1FDA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,18 +61,6 @@ Global
 		Release|iPhoneSimulator = Release|iPhoneSimulator
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5142C8EF-876A-4E37-8B5F-633F86BE1FDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5142C8EF-876A-4E37-8B5F-633F86BE1FDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5142C8EF-876A-4E37-8B5F-633F86BE1FDA}.Debug|iPhone.ActiveCfg = Debug|Any CPU
-		{5142C8EF-876A-4E37-8B5F-633F86BE1FDA}.Debug|iPhone.Build.0 = Debug|Any CPU
-		{5142C8EF-876A-4E37-8B5F-633F86BE1FDA}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
-		{5142C8EF-876A-4E37-8B5F-633F86BE1FDA}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
-		{5142C8EF-876A-4E37-8B5F-633F86BE1FDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5142C8EF-876A-4E37-8B5F-633F86BE1FDA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5142C8EF-876A-4E37-8B5F-633F86BE1FDA}.Release|iPhone.ActiveCfg = Release|Any CPU
-		{5142C8EF-876A-4E37-8B5F-633F86BE1FDA}.Release|iPhone.Build.0 = Release|Any CPU
-		{5142C8EF-876A-4E37-8B5F-633F86BE1FDA}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
-		{5142C8EF-876A-4E37-8B5F-633F86BE1FDA}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 		{D702A8B4-237E-4D6A-B39C-7C72D8997F4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D702A8B4-237E-4D6A-B39C-7C72D8997F4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D702A8B4-237E-4D6A-B39C-7C72D8997F4C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
@@ -354,6 +342,18 @@ Global
 		{7DCA45D3-FB76-411E-81A8-0A6F81B240A3}.Release|iPhone.Build.0 = Release|iPhone
 		{7DCA45D3-FB76-411E-81A8-0A6F81B240A3}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
 		{7DCA45D3-FB76-411E-81A8-0A6F81B240A3}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{5142C8EF-876A-4E37-8B5F-633F86BE1FDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5142C8EF-876A-4E37-8B5F-633F86BE1FDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5142C8EF-876A-4E37-8B5F-633F86BE1FDA}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{5142C8EF-876A-4E37-8B5F-633F86BE1FDA}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{5142C8EF-876A-4E37-8B5F-633F86BE1FDA}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{5142C8EF-876A-4E37-8B5F-633F86BE1FDA}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{5142C8EF-876A-4E37-8B5F-633F86BE1FDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5142C8EF-876A-4E37-8B5F-633F86BE1FDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5142C8EF-876A-4E37-8B5F-633F86BE1FDA}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{5142C8EF-876A-4E37-8B5F-633F86BE1FDA}.Release|iPhone.Build.0 = Release|Any CPU
+		{5142C8EF-876A-4E37-8B5F-633F86BE1FDA}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{5142C8EF-876A-4E37-8B5F-633F86BE1FDA}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

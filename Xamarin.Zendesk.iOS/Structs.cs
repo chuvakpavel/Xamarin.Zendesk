@@ -1,4 +1,0 @@
-﻿namespace Xamarin.Zendesk.iOS
-{
-
-}
