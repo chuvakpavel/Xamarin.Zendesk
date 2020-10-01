@@ -34,7 +34,7 @@ namespace ZendeskApplication.IOS
                   "https://groupehbfhelp.zendesk.com");
             zendesk.SetAnonymousIdentity();
         }
-        public UIViewController GetTicketsViewContriller(UIViewController sender) { return zendesk.GetTicketsViewControllerWithAnimated(true, sender); }
+        public UIViewController GetTicketsViewContriller(UIViewController sender) { return zendesk.TicketsViewController; }
     }
 }
  

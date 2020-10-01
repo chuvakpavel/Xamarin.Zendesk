@@ -28,24 +28,12 @@ namespace ZendeskFramework.iOS
 		[Export("setUniqueIdentityWithToken:")]
 		void SetUniqueIdentityWithToken(string token);
 
-		// -(void)showTicketsViewControllerWithAnimated:(BOOL)animated sender:(UIViewController * _Nonnull)sender;
-		[Export("showTicketsViewControllerWithAnimated:sender:")]
-		void ShowTicketsViewControllerWithAnimated(bool animated, UIViewController sender);
+		// -(UIViewController * _Nonnull)getTicketsViewController __attribute__((warn_unused_result("")));
+		[Export("getTicketsViewController")]
+		UIViewController TicketsViewController { get; }
 
-		// -(UIViewController * _Nonnull)getTicketsViewControllerWithAnimated:(BOOL)animated sender:(UIViewController * _Nonnull)sender __attribute__((warn_unused_result("")));
-		[Export("getTicketsViewControllerWithAnimated:sender:")]
-		UIViewController GetTicketsViewControllerWithAnimated(bool animated, UIViewController sender);
-
-		// -(void)showTicketViewControllerWithAnimated:(BOOL)animated sender:(UIViewController * _Nonnull)sender;
-		[Export("showTicketViewControllerWithAnimated:sender:")]
-		void ShowTicketViewControllerWithAnimated(bool animated, UIViewController sender);
-
-		// -(UIViewController * _Nonnull)getTicketViewControllerWithAnimated:(BOOL)animated sender:(UIViewController * _Nonnull)sender __attribute__((warn_unused_result("")));
-		[Export("getTicketViewControllerWithAnimated:sender:")]
-		UIViewController GetTicketViewControllerWithAnimated(bool animated, UIViewController sender);
-
-		// -(void)showViewControllerWithViewController:(UIViewController * _Nonnull)viewController sender:(UIViewController * _Nonnull)sender;
-		[Export("showViewControllerWithViewController:sender:")]
-		void ShowViewControllerWithViewController(UIViewController viewController, UIViewController sender);
+		// -(UIViewController * _Nonnull)getTicketViewController __attribute__((warn_unused_result("")));
+		[Export("getTicketViewController")]
+		UIViewController TicketViewController { get; }
 	}
 }

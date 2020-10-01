@@ -212,11 +212,8 @@ SWIFT_CLASS_NAMED("ZendeskFramework")
 - (void)setAnonymousIdentity;
 - (void)setIdentityWithName:(NSString * _Nonnull)name email:(NSString * _Nonnull)email;
 - (void)setUniqueIdentityWithToken:(NSString * _Nonnull)token;
-- (void)showTicketsViewControllerWithAnimated:(BOOL)animated sender:(UIViewController * _Nonnull)sender;
-- (UIViewController * _Nonnull)getTicketsViewControllerWithAnimated:(BOOL)animated sender:(UIViewController * _Nonnull)sender SWIFT_WARN_UNUSED_RESULT;
-- (void)showTicketViewControllerWithAnimated:(BOOL)animated sender:(UIViewController * _Nonnull)sender;
-- (UIViewController * _Nonnull)getTicketViewControllerWithAnimated:(BOOL)animated sender:(UIViewController * _Nonnull)sender SWIFT_WARN_UNUSED_RESULT;
-- (void)showViewControllerWithViewController:(UIViewController * _Nonnull)viewController sender:(UIViewController * _Nonnull)sender;
+- (UIViewController * _Nonnull)getTicketsViewController SWIFT_WARN_UNUSED_RESULT;
+- (UIViewController * _Nonnull)getTicketViewController SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
