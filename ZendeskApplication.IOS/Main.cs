@@ -1,6 +1,6 @@
 ﻿using UIKit;
 
-namespace Xamarin.ZendeskApplication.IOS
+namespace ZendeskApplication.IOS
 {
     public class Application
     {
