@@ -17,7 +17,6 @@
 		F5118B54251B76410002D5F7 /* ZendeskProviderSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F5118B40251B74650002D5F7 /* ZendeskProviderSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F5118B55251B76430002D5F7 /* ZendeskSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5118B42251B746D0002D5F7 /* ZendeskSDK.framework */; };
 		F5118B56251B76440002D5F7 /* ZendeskSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F5118B42251B746D0002D5F7 /* ZendeskSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F57989CA2521BDC00016A6A0 /* ZendeskFrameworkVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57989C92521BDC00016A6A0 /* ZendeskFrameworkVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,7 +45,6 @@
 		F5118B3E251B745E0002D5F7 /* ZendeskCoreSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZendeskCoreSDK.framework; sourceTree = "<group>"; };
 		F5118B40251B74650002D5F7 /* ZendeskProviderSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZendeskProviderSDK.framework; sourceTree = "<group>"; };
 		F5118B42251B746D0002D5F7 /* ZendeskSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZendeskSDK.framework; sourceTree = "<group>"; };
-		F57989C92521BDC00016A6A0 /* ZendeskFrameworkVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZendeskFrameworkVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +85,6 @@
 				F5118AFB251B68AE0002D5F7 /* ZendeskFramework.h */,
 				F5118AFC251B68AE0002D5F7 /* Info.plist */,
 				F5118B16251B6B2C0002D5F7 /* ZendeskFramework.swift */,
-				F57989C92521BDC00016A6A0 /* ZendeskFrameworkVC.swift */,
 			);
 			path = ZendeskFramework;
 			sourceTree = "<group>";
@@ -142,7 +139,7 @@
 		F5118AEF251B68AE0002D5F7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1150;
+				LastUpgradeCheck = 1160;
 				ORGANIZATIONNAME = "Pavel Chuvak";
 				TargetAttributes = {
 					F5118AF7251B68AE0002D5F7 = {
@@ -184,7 +181,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F57989CA2521BDC00016A6A0 /* ZendeskFrameworkVC.swift in Sources */,
 				F5118B17251B6B2C0002D5F7 /* ZendeskFramework.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -246,7 +242,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -340,7 +336,7 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = "arm64 arm64e";
+				VALID_ARCHS = "arm64 arm64e armv7 armv7s i386 x86_64";
 			};
 			name = Debug;
 		};
@@ -370,7 +366,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = "arm64 arm64e";
+				VALID_ARCHS = "arm64 arm64e armv7 armv7s i386 x86_64";
 			};
 			name = Release;
 		};

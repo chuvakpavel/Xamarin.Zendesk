@@ -16,7 +16,6 @@ import UIKit
 public class ZendeskFramework : NSObject{
     
     private let navigationController = UINavigationController()
-    private let zendeskVC = ZendeskFrameworkVC()
     
     @objc
     public func initZendesk(appId: String, clientId: String, zendeskUrl: String) -> Void{
@@ -43,13 +42,30 @@ public class ZendeskFramework : NSObject{
     }
     
     @objc
-    public func showTicketScreen(animated: Bool, sender: UIViewController) -> Void{
+    public func showTicketsViewController(animated: Bool, sender: UIViewController) -> Void{
         let requestListController = RequestUi.buildRequestList()
-        show(viewController: requestListController, sender: sender)
+        showViewController(viewController: requestListController, sender: sender)
     }
     
     @objc
-    private func show(viewController: UIViewController, sender: UIViewController) -> Void{
-        zendeskVC.showZendesk(vc: viewController, sender: sender)
+    public func getTicketsViewController(animated: Bool, sender: UIViewController) -> UIViewController{
+        let requestListController = RequestUi.buildRequestList()
+        return requestListController
+    }
+    
+    @objc
+    public func showTicketViewController(animated: Bool, sender: UIViewController) -> Void{
+        let requestController = RequestUi.buildRequestUi(requestId: "<id>")
+        showViewController(viewController: requestController, sender: sender)
+    }
+    
+    @objc
+    public func getTicketViewController(animated: Bool, sender: UIViewController) -> UIViewController{
+        let requestController = RequestUi.buildRequestUi(requestId: "<id>")
+        return requestController
+    }
+    @objc
+    public func showViewController(viewController: UIViewController, sender: UIViewController) -> Void{
+        sender.present(viewController, animated: true, completion: nil)
     }
 }
